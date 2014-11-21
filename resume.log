@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 NOV 2014 16:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 NOV 2014 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -551,7 +551,7 @@ live/2013/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2013/texmf
 -dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/urw/palatino/uplri8a.pfb>
-Output written on resume.pdf (1 page, 62646 bytes).
+Output written on resume.pdf (1 page, 62638 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
