@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+%  modified by John Muyskens, Fall 2014
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{scrartcl}
+
+\reversemarginpar % Move the margin to the left of the page
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
+
+\date{} % no date
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{Spring 2011} % Set the width of the date box in each block
+
+\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{1.0em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.2em}} % Add some white space after each new entry
+
+\newcommand{\NewProject}[3]{\noindent\hangindent=2em\hangafter=0 #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.2em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+\newcommand{\Skills}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{0.5em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{empty} % Stop the page count at the bottom of the first page
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{cv}{\spacedallcaps{John B. Muyskens}}%\vspace{1.5em} % Your name
+\noindent \hrulefill
+
+%\noindent\spacedlowsmallcaps{Personal Information}\vspace{0.5em} % Personal information heading
+
+%\NewEntry{}{\textit{Born in the USA,}}{22 June 1992} % Birthplace and date
+
+
+\hfill \href{mailto:jmuyskens@gmail.com}{jmuyskens@gmail.com} % Email address
+
+\hfill \href{http://jmuyskens.github.io}{jmuyskens.github.io} % Personal website
+
+%\NewEntry{email}{\href{mailto:jmuyskens@gmail.com}{jmuyskens@gmail.com}} % Email address
+
+%\NewEntry{website}{\href{http://jmuyskens.github.io}{jmuyskens.github.io}} % Personal website%
+%
+%\NewEntry{phone}{(616) 334 0647} % Phone number(s)
+%
+%\vspace{0.5em} % Extra white space between the personal information section and goal
+
+%\noindent\spacedlowsmallcaps{Goal}\vspace{1em} % Goal heading, could be used for a quotation or short profile instead
+
+%\Description{Gain fundamental experience in my area of interest and expertise.}\vspace{1em} % Goal text
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Education}
+\vspace{1em}
+
+\NewEntry{2010-2014}{Calvin College, Grand Rapids, MI}
+
+\Description{\MarginText{Bachelor of Science in Computer Science}GPA: 3.905/4.000\newline
+CCA Computing Award (top senior in computer science)\newline
+Dean's List (GPA \textgreater 3.5) each semester \newline
+Presidential (academic) scholarship \newline
+Studied abroad in Berlin, summer of 2011 \newline
+\textbf{Coursework:} Software Engineering, High Performance Computing, Artificial Intelligence, Advanced Computer Networks, Computer Architecture, Algorithms, Statistics
+}
+%------------------------------------------------
+
+\vspace{0.2em} % Extra space between major sections
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Experience}\vspace{1em}
+
+
+%------------------------------------------------
+
+\NewEntry{Summer 2014}{Software Apprentice, \href{http://mutuallyhuman.com}{\textsc{Mutually Human}} }
+
+\Description{\MarginText{Mutually Human Software}Working on a team of three, put a BTLE indoor location app in the App Store in three weeks with no prior iOS experience (my role involved data visualization and design). Front-end web development, responsive design and cross-browser bug fixing for a large retail website redesign. Wielded a Git/GitHub workflow.}
+
+%------------------------------------------------
+
+\NewEntry{2012--2014}{Print Editor, Managing Editor, Sci-Tech Editor, Web Manager, \textsc{\textit{Chimes}} }
+
+\Description{\MarginText{Chimes (Calvin College's student newspaper)}Responsible for the print edition of Calvin's weekly student-run newspaper; trained section editors in design guidelines and use of Adobe InDesign; reviewed pages and gave design feedback; created charts and maps to illustrate stories; wrote and edited news articles and opinion pieces; maintained a self-hosted Wordpress site, made theme modifications.}
+
+%------------------------------------------------
+
+\NewEntry{Summer 2013}{Fellow, \textsc{ITLAB: Junior Summer Institute}}
+
+\Description{\MarginText{Carnegie Mellon University}Worked on digital entertainment analytics research with Dr. Michael D. Smith; took two graduate courses at CMU's Heinz College.}
+
+%------------------------------------------------
+
+%\NewEntry{2012--2014}{Student Assistant, \textsc{Calvin College}}
+
+%\Description{\MarginText{Student Activities Office}Created and distributed promotional material for upcoming concerts, movies, and other pop-culture related activities; used Adobe Photoshop, Illustrator, and InDesign to design posters and flyers.}
+
+
+%------------------------------------------------
+
+\NewEntry{Summer 2012}{Student Researcher, \textsc{Calvin College} }
+
+\Description{\MarginText{Summer Undergraduate Research}Investigated the use of semantic web technologies for enhancing website search experience; implemented a search result server on top of an existing search engine; integrated results from semantic web sources and a local ontology; used Ubuntu as a software development environment.}
+
+%------------------------------------------------
+
+
+\vspace{0.2em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Projects}\vspace{1em}
+
+%------------------------------------------------
+
+\NewProject{}{Calvin College course scheduler}
+
+\Description{\MarginText{Course scheduler}Built a web app for department chairs to schedule college courses. Performed UI/UX design, front end development (Angular.js, D3.js). }
+
+%------------------------------------------------
+
+\NewProject{}{Hekman Library interactive map}
+
+\Description{\MarginText{Library map}Built an interactive map of Calvin College's academic library. Performed UI/UX design, front end development (Angular.js, D3.js), user testing.}
+
+%------------------------------------------------
+
+
+
+\vspace{0.2em}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Skills}\vspace{1em}
+
+\Skills{\MarginText{Languages}JavaScript, Python, C, C++, Java}
+
+\Skills{\MarginText{Web}D3.js, Angular.js, jQuery, Flask, HTML, CSS, Sass, Cordova}
+
+\Skills{\MarginText{Graphic Design}Sketch.app, Adobe Photoshop, Illustrator, and InDesign, \LaTeX}
+
+\end{cv}
+
+\end{document}
